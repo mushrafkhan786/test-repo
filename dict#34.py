@@ -1,14 +1,14 @@
-##dic = {
-##    580: "Mushraf",
-##    340:"Ishwar",
-##    400:"krishna",
-##    440:"yash"
-##}
-##
-##print(dic[440])
-##
-##info ={'name':"sakil",'age':'22','job':'welder'}
-##print(info)
+dic = {
+    580: "Mushraf",
+    340:"Ishwar",
+    400:"krishna",
+    440:"yash"
+}
+
+print(dic[440])
+
+info ={'name':"sakil",'age':'22','job':'welder'}
+print(info)
 ##print(info['name']) #if i take a word not in dic gives error
 ##print(info.get('name'))#if i take a word not in dic gives none
 ##print(info.keys())
@@ -36,6 +36,7 @@ ep1.popitem()  #it removes the last item
 #delete the dict and if give give key then del particular key
 
 print(ep1)
+
 
 
 

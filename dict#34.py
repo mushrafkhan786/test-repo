@@ -9,19 +9,19 @@ print(dic[440])
 
 info ={'name':"sakil",'age':'22','job':'welder'}
 print(info)
-##print(info['name']) #if i take a word not in dic gives error
-##print(info.get('name'))#if i take a word not in dic gives none
-##print(info.keys())
-##print(info.values())
-##
-###we can iterate by for loop
-##for key in info.keys():
-##    print(info[key])
-##
-##print(info.items())
-##for key,value in info.items():
-##    print(f"The value coresponding to key {key} is {value}")
-##
+print(info['name']) #if i take a word not in dic gives error
+print(info.get('name'))#if i take a word not in dic gives none
+print(info.keys())
+print(info.values())
+
+#we can iterate by for loop
+for key in info.keys():
+    print(info[key])
+
+print(info.items())
+for key,value in info.items():
+    print(f"The value coresponding to key {key} is {value}")
+
 
 
 #dict methods
@@ -36,6 +36,7 @@ ep1.popitem()  #it removes the last item
 #delete the dict and if give give key then del particular key
 
 print(ep1)
+
 
 
 
